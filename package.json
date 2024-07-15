@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  },
+  "name": "currency",
+  "version": "1.0.0",
+  "main": "database.js",
+  "scripts": {
+    "start": "node database.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Duffy <duffy.andd@gmail.com>",
+  "license": "ISC",
+  "description": ""
+}
